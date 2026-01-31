@@ -1,33 +1,33 @@
-# SillyTavern Extension Example
+# CT-CharLibraryColumnView
 
-*Provide a brief description of how your extension works, what problem it aims to solve.*
+A SillyTavern/CozyTavern extension that enhances the character library display with a clean two-column layout and automatic HTML cleanup for character descriptions. Perfect for managing large character libraries with improved readability and organization.
 
 ## Features
 
-*Describe some of the main selling points of your extension.*
+- **Two-Column Layout**: Displays character cards in an efficient two-column grid on desktop, maximizing screen real estate
+- **Clean Descriptions**: Automatically removes HTML tags, URLs, and formatting artifacts from character descriptions for better readability
+- **Dynamic Panel Sync**: Intelligently syncs the character panel position with the main interface
+- **Enhanced Description Preview**: Shows more lines of character descriptions (10 lines default, 15 on mobile)
+- **Persistent Cleaning**: Continuously monitors and cleans descriptions even when switching between characters
 
 ## Installation and Usage
 
 ### Installation
 
-*In most cases, this should just be using ST's inbuilt extension installer.* 
+#### Method 1: Built-in Extension Installer (Recommended)
+1. Open SillyTavern
+2. Go to Extensions menu
+3. Click "Install Extension"
+4. Search for "CT-CharLibraryColumnView"
+5. Click Install
 
-### Usage
-
-*Explain how to use this extension.*
-
-## Prerequisites
-
-*Specify the version of ST necessary here.*
-
-## Support and Contributions
-
-*Where should someone ask for support?*
-
-*Consider including your own contact info for help/questions.*
-
-*How can people help add to this extension?*
+#### Method 2: Manual Installation
+1. Navigate to your SillyTavern installation directory
+2. Go to `public/scripts/extensions/third-party/`
+3. Clone or download this repository into that folder
+4. Restart SillyTavern
+5. Enable the extension in the Extensions menu
 
 ## License
 
-*Be cool, use an open source license.*
+This project is licensed under the MIT License
