@@ -1,0 +1,52 @@
+/* ## CharManager Columns */
+
+.stcm_folder_contents {
+				width: 100% !important;
+}
+
+/* Less Optimized way to match #sheld width and position */
+#right-nav-panel {
+width: var(--sheldWidth)!important;
+left: 400.5px;
+top: 33px;
+}
+
+#rm_print_characters_block {    
+    flex-flow: row wrap !important;
+}
+
+.character_select.entity_block.flex-container.wide100p.alignitemsflexstart.interactable {
+    width: calc(50% - 3px) !important;
+    min-width: calc(50% - 3px) !important;
+    max-width: calc(50% - 3px) !important;
+    flex-shrink: 0 !important;
+}
+
+body.big-avatars .ch_description, body.big-avatars .avatar-container .ch_description {
+    -webkit-line-clamp: 10 !important;
+}
+
+div.character_select.entity_block.flex-container.wide100p.alignitemsflexstart.interactable .character_name_block {
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+}
+
+div.character_select.entity_block.flex-container.wide100p.alignitemsflexstart.interactable .character_name_block > * {
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    min-width: 0 !important;
+}
+
+@media (max-width: 768px) {
+
+body.big-avatars .ch_description, body.big-avatars .avatar-container .ch_description {
+-webkit-line-clamp: 15 !important;
+}
+div.character_select.entity_block.flex-container.wide100p.alignitemsflexstart.interactable .ch_name {
+font-size: 12px !important;
+}
+
+}
